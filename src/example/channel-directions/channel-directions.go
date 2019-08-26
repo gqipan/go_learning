@@ -24,5 +24,5 @@ func main() {
 	ping(pings, "passed message")
 	pong(pings, pongs)
 
-	fmt.Println(<- pongs)
+	fmt.Println(<-pongs)
 }
